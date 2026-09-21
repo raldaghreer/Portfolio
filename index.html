@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Projects - Raghad Aldaghreer</title>
+  <title>Raghad Aldaghreer - Portfolio</title>
 
   <style>
     body {
@@ -15,36 +15,17 @@
     }
     header {
       background-color: #EAE4D5;
-      padding: 25px;
+      color: #000000;
+      padding: 20px;
       text-align: center;
-      border-bottom: 2px solid #B6B09F;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 32px;
-      font-weight: 700;
-    }
-    header p {
-      margin-top: 10px;
-      font-size: 18px;
     }
     section {
       padding: 40px 20px;
-      max-width: 900px;
+      max-width: 800px;
       margin: auto;
-    }
-    .project {
       background-color: #EAE4D5;
       border-radius: 12px;
-      padding: 25px;
-      margin-bottom: 35px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-    }
-    .project img {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 15px;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
     }
     .btn {
       display: inline-block;
@@ -53,50 +34,75 @@
       background-color: #000000;
       color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 5px;
       font-weight: 600;
     }
-    footer {
-      text-align: center;
-      padding: 20px;
+    #contact {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: 40px auto;
       background-color: #EAE4D5;
-      margin-top: 40px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      color: #000000;
+    }
+    #contact ul {
+      list-style: none;
+      padding: 0;
+      font-size: 18px;
+      max-width: 400px;
+      margin: auto;
+    }
+    #contact li {
+      margin: 15px 0;
+      display: flex;
+      align-items: center;
+    }
+    #contact a {
+      color: #000000;
+      text-decoration: none;
     }
   </style>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
 </head>
 
 <body>
 
 <header>
-  <h1>My Projects</h1>
-  <p>Healthcare Data Analysis • Medical Approvals • RCM</p>
+  <h1>Raghad Aldaghreer</h1>
+  <p>Medical Approvals & Revenue Cycle Management Specialist | Healthcare Data Analyst</p>
+  <p>Mathematics graduate skilled in medical insurance approvals, patient authorization, workflow monitoring, and healthcare data analysis.</p>
+
+  <a class="btn" href="projects.html">View My Projects</a>
 </header>
 
 <section>
+  <h2>About Me</h2>
 
-  <div class="project">
-    <h2>Insurance Approval Dashboard (Power BI)</h2>
-
-    <img src="https://raw.githubusercontent.com/raldaghreer/Insurance-Approval-Dashboard/main/overall%20summary.png" />
-    <img src="https://raw.githubusercontent.com/raldaghreer/Insurance-Approval-Dashboard/main/kpis.png" />
-    <img src="https://raw.githubusercontent.com/raldaghreer/Insurance-Approval-Dashboard/main/approval%20vs%20dep.png" />
-    <img src="https://raw.githubusercontent.com/raldaghreer/Insurance-Approval-Dashboard/main/rejection%20rate.png" />
-    <img src="https://raw.githubusercontent.com/raldaghreer/Insurance-Approval-Dashboard/main/cost%20by%20insurance.png" />
-
-    <p>
-      A Power BI dashboard analyzing approval and rejection rates across medical departments and insurance companies using a fake dataset created for training purposes.
-    </p>
-
-    <p><strong>Skills Used:</strong> Medical Approvals, RCM, Data Analysis, Excel, Power BI.</p>
-
-    <p><strong>Key Insights:</strong> Approval vs rejection rates, department performance, insurance cost distribution.</p>
-
-    <a class="btn" href="https://github.com/raldaghreer/Insurance-Approval-Dashboard" target="_blank">View on GitHub</a>
-  </div>
-
+  <p>
+    I am an RCM Assistant with experience in medical insurance approvals, patient authorization, and workflow monitoring.  
+    I apply analytical thinking to improve healthcare operations using data analysis tools such as Excel, SQL, and Power BI.
+  </p>
 </section>
 
-<footer>
+<section id="contact">
+  <h2>Contact Me</h2>
+  <ul>
+    <li><i class="fab fa-linkedin"></i>
+      <a href="https://www.linkedin.com/in/raghad-aldaghreer-347b17240" target="_blank">LinkedIn Profile</a>
+    </li>
+    <li><i class="fas fa-envelope"></i>
+      <a href="mailto:raldaghreer@gmail.com">raldaghreer@gmail.com</a>
+    </li>
+    <li><i class="fas fa-phone"></i>
+      <a href="tel:+966509684476">+966 509 684 476</a>
+    </li>
+  </ul>
+</section>
+
+<footer style="text-align:center; padding:20px;">
   &copy; 2025 Raghad Aldaghreer
 </footer>
 
