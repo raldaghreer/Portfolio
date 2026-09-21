@@ -1,0 +1,19 @@
+<section style="margin-bottom: 40px;">
+  <h2>Insurance Approval Dashboard (Power BI)</h2>
+
+  <p>
+    A Power BI dashboard analyzing approval and rejection rates across medical departments and insurance companies using a fake dataset for training purposes.
+  </p>
+
+  <p>
+    <strong>GitHub Repository:</strong>
+    <a href="https://github.com/raldaghreer/Insurance-Approval-Dashboard" target="_blank">
+      View Project on GitHub
+    </a>
+  </p>
+
+  <img 
+    src="https://raw.githubusercontent.com/raldaghreer/Insurance-Approval-Dashboard/main/overall%20summary.png" 
+    alt="Dashboard Preview"
+    style="width: 400px; border-radius: 10px; margin-top: 10px;">
+</section>
