@@ -22,6 +22,22 @@
       border-bottom: 2px solid #e6c77a;
     }
 
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 30px;
+      background-color: #e6c77a;
+      color: #000000;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 700;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #d4a62f;
+    }
+
     section {
       padding: 50px 20px;
       max-width: 1000px;
@@ -37,26 +53,19 @@
       margin-bottom: 50px;
     }
 
-    .project img {
-      width: 100%;
+    /* ⭐ سلايدر الصور ⭐ */
+    .slider {
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      padding-bottom: 10px;
+    }
+
+    .slider img {
+      width: 300px;
+      height: auto;
       border-radius: 12px;
-      margin-bottom: 25px;
-    }
-
-    .btn {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 14px 30px;
-      background-color: #e6c77a;
-      color: #000000;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: 700;
-      transition: 0.3s;
-    }
-
-    .btn:hover {
-      background-color: #d4a62f;
+      flex-shrink: 0;
     }
 
     footer {
@@ -76,7 +85,7 @@
   <p>Healthcare Data Analysis • Medical Approvals • RCM</p>
 
   <!-- ⭐ زر العودة للصفحة الرئيسية ⭐ -->
-  <a class="btn" href="index.html" style="margin-top: 15px;">Back to Home</a>
+  <a class="btn" href="index.html">Back to Home</a>
 </header>
 
 <section>
@@ -85,7 +94,7 @@
   <div class="project">
     <h2>Insurance Approval Dashboard</h2>
 
-    <img src="Insurance-Approval-Dashboard-page-00001.jpg" alt="Dashboard Preview">
+    <img src="Insurance-Approval-Dashboard-page-00001.jpg" alt="Dashboard Preview" style="width:100%; border-radius:12px;">
 
     <p>
       A dashboard analyzing approval and rejection rates across medical departments and insurance companies using a training dataset.
@@ -103,25 +112,13 @@
   <div class="project">
     <h2>Hospital OPD Bottleneck Analysis</h2>
 
-    <!-- صورة 1 -->
-    <img 
-      src="https://raw.githubusercontent.com/raldaghreer/hospital_OPD-bottleneck-analysis/main/Hospital_OPD_BottleneckAnalysis%20.ipynb%20-%20Colab-page-00005.jpg"
-      alt="OPD Bottleneck Analysis Page 5">
-
-    <!-- صورة 2 -->
-    <img 
-      src="https://raw.githubusercontent.com/raldaghreer/hospital_OPD-bottleneck-analysis/main/Hospital_OPD_BottleneckAnalysis%20.ipynb%20-%20Colab-page-00006.jpg"
-      alt="OPD Bottleneck Analysis Page 6">
-
-    <!-- صورة 3 -->
-    <img 
-      src="https://raw.githubusercontent.com/raldaghreer/hospital_OPD-bottleneck-analysis/main/Hospital_OPD_BottleneckAnalysis%20.ipynb%20-%20Colab-page-00008.jpg"
-      alt="OPD Bottleneck Analysis Page 8">
-
-    <!-- صورة 4 -->
-    <img 
-      src="https://raw.githubusercontent.com/raldaghreer/hospital_OPD-bottleneck-analysis/main/Hospital_OPD_BottleneckAnalysis%20.ipynb%20-%20Colab-page-00009.jpg"
-      alt="OPD Bottleneck Analysis Page 9">
+    <!-- ⭐ سلايدر الصور ⭐ -->
+    <div class="slider">
+      <img src="https://raw.githubusercontent.com/raldaghreer/hospital_OPD-bottleneck-analysis/main/Hospital_OPD_BottleneckAnalysis%20.ipynb%20-%20Colab-page-00005.jpg" alt="">
+      <img src="https://raw.githubusercontent.com/raldaghreer/hospital_OPD-bottleneck-analysis/main/Hospital_OPD_BottleneckAnalysis%20.ipynb%20-%20Colab-page-00006.jpg" alt="">
+      <img src="https://raw.githubusercontent.com/raldaghreer/hospital_OPD-bottleneck-analysis/main/Hospital_OPD_BottleneckAnalysis%20.ipynb%20-%20Colab-page-00008.jpg" alt="">
+      <img src="https://raw.githubusercontent.com/raldaghreer/hospital_OPD-bottleneck-analysis/main/Hospital_OPD_BottleneckAnalysis%20.ipynb%20-%20Colab-page-00009.jpg" alt="">
+    </div>
 
     <p>
       A comprehensive data-driven analysis of operational bottlenecks in a hospital Outpatient Department (OPD).
